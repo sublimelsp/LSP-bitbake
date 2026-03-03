@@ -1,6 +1,6 @@
 # Package Development
 
-Here is pre-built [VS Code's HTML language server](https://github.com/microsoft/vscode/tree/main/extensions/html-language-features/server).
+Here is pre-built [VS Code's bitbake language server](https://github.com/yoctoproject/vscode-bitbake/tree/staging/server).
 
 You don't have to go here if you are just an end user.
 
