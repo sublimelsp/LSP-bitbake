@@ -83,7 +83,7 @@ async function getBitBakeCompletionItems(textDocumentPositionParams, word, wordP
         }
         const variablesAllowedForLicenseCompletion = ['LICENSE'];
         const isVariableAllowedForLicenseCompletion = analyzer_1.analyzer.isStringContentOfVariableAssignment(documentUri, wordPosition.line, wordPosition.character, variablesAllowedForLicenseCompletion);
-        if (isVariableAllowedForLicenseCompletion && word !== null) {
+        if (isVariableAllowedForLicenseCompletion && recipeLocalFiles !== undefined && word !== null) {
             const textDocument = analyzer_1.analyzer.getAnalyzedDocument(documentUri)?.document;
             if (textDocument !== undefined) {
                 return await (0, spdx_licenses_1.getLicenseCompletionItems)(textDocument, textDocumentPositionParams.position);

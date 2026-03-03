@@ -93,7 +93,9 @@ pushd "${REPO_DIR}" || exit
 
 mkdir -p "${DIST_DIR}"
 
-cp -rf "${SRC_DIR}/out" "${DIST_DIR}"
+TGZ_FILE=$(find ${SRC_DIR} -maxdepth 1 -type f -name "*.tgz" | head -n 1)
+echo $TGZ_FILE
+tar -xvzf "${TGZ_FILE}" -C "${DIST_DIR}"
 cp "${SRC_DIR}/package.json" .
 cp "${SRC_DIR}/package-lock.json" .
 

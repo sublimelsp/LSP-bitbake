@@ -25,3 +25,5 @@ tox.ini export-ignore
 typings/ export-ignore
 unittesting.json export-ignore
 uv.lock export-ignore
+# other
+preview.* export-ignore

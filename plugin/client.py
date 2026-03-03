@@ -21,6 +21,7 @@ class LspBitbakePlugin(NpmClientHandler):
         server_directory,
         "bitbake-language-features",
         "server",
+        "package",
         "out",
         "server.js",
     )
