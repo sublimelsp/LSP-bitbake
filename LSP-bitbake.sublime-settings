@@ -1,7 +1,5 @@
 {
 	"command": ["${node_bin}", "${server_path}", "--stdio"],
-	"schemes": ["file", "buffer", "res"],
-	"settings": {
-	},
+	"schemes": ["file"],
 	"selector": "source.bb",
 }
