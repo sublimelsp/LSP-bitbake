@@ -17,34 +17,6 @@
           ],
           "definitions": {
             "PluginConfig": {
-              "properties": {
-                "initializationOptions": {
-                  "type": "object",
-                  "additionalProperties": false,
-                  "properties": {
-                    "embeddedLanguages": {
-                      "type": "object",
-                      "properties": {
-                        "python": {
-                          "type": "boolean",
-                          "default": true
-                        },
-                      },
-                      "additionalProperties": false,
-                    },
-                    "provideFormatter": {
-                      "type": "boolean",
-                      "default": true,
-                      "markdownDescription": "Whether server provides formatter capabilities."
-                    }
-                  },
-                },
-                "settings": {
-                  // "additionalProperties": false,
-                  "properties": {
-                  }
-                }
-              }
             }
           }
         }
