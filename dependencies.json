@@ -3,7 +3,6 @@
         "*": [
             "lsp_utils",
             "sublime_lib",
-            "typing_extensions"
         ]
     }
 }
