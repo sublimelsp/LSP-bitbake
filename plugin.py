@@ -12,6 +12,7 @@ def plugin_unloaded():
 
 class LspBitbakefilePlugin(NpmClientHandler):
     package_name = __package__
-    server_directory = 'server'
+    server_directory = "server"
     server_binary_path = os.path.join(
-        server_directory, 'node_modules', '.bin', 'language-server-bitbake' )
+        server_directory, "node_modules", ".bin", "language-server-bitbake"
+    )

@@ -2,7 +2,7 @@
     "*": {
         "*": [
             "lsp_utils",
-            "sublime_lib",
+            "sublime_lib"
         ]
     }
 }

@@ -10,4 +10,3 @@ Bitbake support for Sublime's LSP plugin provided through [VS Code's Bitbake lan
 
 # Configuration
 Open configuration file using command palette with `Preferences: LSP-bitbake Settings` command or opening it from the Sublime menu.
-
