@@ -2,6 +2,6 @@
   "name": "lsp-bitbake",
   "version": "1.0.0",
   "dependencies": {
-    "language-server-bitbake": "^2.8.0"
+    "language-server-bitbake": "2.8.0"
   }
 }
