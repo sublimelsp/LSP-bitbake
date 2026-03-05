@@ -1,0 +1,74 @@
+{
+  "contributions": {
+    "settings": [
+      {
+        "file_patterns": [
+          "/LSP-bitbake.sublime-settings"
+        ],
+        "schema": {
+          "$id": "sublime://settings/LSP-bitbake",
+          "allOf": [
+            {
+              "$ref": "sublime://settings/LSP-plugin-base"
+            },
+            {
+              "$ref": "sublime://settings/LSP-bitbake#/definitions/PluginConfig"
+            }
+          ],
+          "definitions": {
+            "PluginConfig": {
+              "properties": {
+                "initializationOptions": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "embeddedLanguages": {
+                      "type": "object",
+                      "properties": {
+                        "python": {
+                          "type": "boolean",
+                          "default": true
+                        },
+                      },
+                      "additionalProperties": false,
+                    },
+                    "provideFormatter": {
+                      "type": "boolean",
+                      "default": true,
+                      "markdownDescription": "Whether server provides formatter capabilities."
+                    }
+                  },
+                },
+                "settings": {
+                  // "additionalProperties": false,
+                  "properties": {
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "file_patterns": [
+          "/*.sublime-project"
+        ],
+        "schema": {
+          "properties": {
+            "settings": {
+              "properties": {
+                "LSP": {
+                  "properties": {
+                    "LSP-bitbake": {
+                      "$ref": "sublime://settings/LSP-bitbake#/definitions/PluginConfig"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
