@@ -6,5 +6,5 @@
 	"server_path": "auto",
 	"command": ["${node_bin}", "${server_path}", "--stdio"],
 	"schemes": ["file"],
-	"selector": "source.bb",
+	"selector": "source.bb | source.bitbake"
 }
