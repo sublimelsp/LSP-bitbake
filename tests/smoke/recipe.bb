@@ -1,2 +1,2 @@
 SUMMARY = "Smoke test"
-LICENSE = "MIT
+LICENSE = "MIT"
