@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/sublimelsp/lsp_smoke_test/v1/smoke.schema.json
+file: recipe.bb
+# The server doesn't report diagnostics for this file, so check that the hover shows the variable's documentation.
+expected_hover:
+  at: SUMMARY
+  match: '\*\*SUMMARY\*\*'
