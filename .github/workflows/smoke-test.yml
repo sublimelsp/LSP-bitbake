@@ -13,4 +13,4 @@ jobs:
     with:
       # Provides the BitBake syntax, which Sublime Text doesn't include.
       extra-packages: |
-        huyhoang8398/BitBake-Syntax
+        SublimeText/BitBake@3176-
