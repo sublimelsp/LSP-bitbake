@@ -5,7 +5,8 @@ Bitbake support for Sublime's LSP plugin provided through [VS Code's Bitbake lan
 ![preview](./preview.png)
 
 # Installation
-- Install `LSP` and `LSP-bitbake` from Package Control. For syntax highlighting, install [Bitbake-Syntax](https://github.com/huyhoang8398/BitBake-Syntax)
+- Install [BitBake Syntax](https://packagecontrol.io/packages/BitBake)
+- Install `LSP` and `LSP-bitbake` from Package Control.
 - Restart Sublime
 
 # Configuration
